@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "net.slipp.jhipster",
+      "nativeLanguage": "ko"
+    },
+    "jhipsterVersion": "4.10.0",
+    "baseName": "uaa",
+    "packageName": "net.slipp.jhipster",
+    "packageFolder": "net/slipp/jhipster",
+    "serverPort": "9999",
+    "authenticationType": "uaa",
+    "hibernateCache": "hazelcast",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSocialSignIn": false,
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "f995d16a29f37b0cf559a1e321792584318593cb",
+    "enableTranslation": true,
+    "applicationType": "uaa",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "nativeLanguage": "ko",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "clientPackageManager": "yarn"
+  }
+}
